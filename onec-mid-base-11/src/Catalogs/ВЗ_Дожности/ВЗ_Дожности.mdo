@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fe3178e-3fb6-4981-aa45-a64392943f2c">
+  <producedTypes>
+    <objectType typeId="d3d11310-2c51-4b85-ba99-176d8eac0e47" valueTypeId="ca033f57-c0cf-4e4c-bb58-6ff19bbcf106"/>
+    <refType typeId="602ddd67-df51-4252-b287-db97a3a948a6" valueTypeId="457cb85b-2fc0-4aae-8c0d-196a55ee7019"/>
+    <selectionType typeId="1df8d5ed-67dc-4ed1-93ce-fd07d0cd0209" valueTypeId="1c367bc5-7eab-444f-a813-d65121917b17"/>
+    <listType typeId="22ed5e57-8a0d-4a47-9b53-30eab1678d49" valueTypeId="7f61c40c-cddb-41d5-bc43-45c4582db8f1"/>
+    <managerType typeId="5b32844e-d119-411c-a065-24f4e224d6e7" valueTypeId="d5c635f7-97b3-49df-8827-ad3a577adf27"/>
+  </producedTypes>
+  <name>ВЗ_Дожности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дожности(ВЗ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВЗ_Дожности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВЗ_Дожности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
